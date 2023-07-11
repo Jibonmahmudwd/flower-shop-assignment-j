@@ -5,11 +5,12 @@
 }
 /* common style */
   .btn{
+    font-family: Lato;
     color:white;
-    background: orangered;
+    background: #E55473;
     border: none;
-    border-radius: 2px;
-    padding: 9px 17px;
+    border-radius: 6px;
+    padding: 10px 22px;
     margin: 10px 0px;
     font-weight: bolder;
 
@@ -19,22 +20,29 @@
 
 /* header style start here */
 .head-container{
-    background-color:rgb(219, 209, 199);
+    background-color:rgba(229, 84, 115, 0.10);
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
-    padding:60px 140px 0px;
+    padding:60px 0px 10px 0px;
 }
-
+.head-text>h1{
+    color: #272727;
+    font-family: Lato;
+}
 .head-text>p{
     margin: 10px 0px;
+    font-size: 8px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+
 }
 
 .head-img>img{
-    width:200px;
-    margin-bottom: -3.99px;
+    width:320px;
+    height: 350px;
+    margin-bottom: -13.5px;
 }
 /* header style end here */
 
