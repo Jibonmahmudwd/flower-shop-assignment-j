@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* common style */
+  .btn{
+    color:white;
+    background: orangered;
+    border: none;
+    border-radius: 2px;
+    padding: 9px 17px;
+    margin: 10px 0px;
+    font-weight: bolder;
+
+  }
+
+/* common style */
+
+/* header style start here */
+.head-container{
+    background-color:rgb(219, 209, 199);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:60px 140px 0px;
+}
+
+.head-text>p{
+    margin: 10px 0px;
+}
+
+.head-img>img{
+    width:200px;
+    margin-bottom: -3.99px;
+}
+/* header style end here */
+
+/* main style start here */
+.signup{
+    margin-top: 20px;
+    background-color:rgb(218, 158, 98);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+    padding:60px 140px 0px;
+}
+
+
+.img-show{
+    padding: 30px 80px;
+    /* margin: 0px auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.img-show-text{
+    text-align: center;
+    
+}
+
+.only-img{
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+}
+.only-img img{
+    width: 250px;
+    display: inline-block;
+}
+
+.img-show-input{
+   
+    background-image: url("Flower Asset/13.png");
+   
+    width:1045px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0 auto;
+    margin-top:30px;
+    text-align: center;
+    
+}
+/* main style end here */
