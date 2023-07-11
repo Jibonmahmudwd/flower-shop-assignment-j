@@ -156,7 +156,9 @@
  /* input field start */
 .img-show-input{     
     background-image: url("Flower Asset/13.png"); 
-    width:1012px;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
     height: 250px;
     margin: 60px auto;
     text-align: center;  
